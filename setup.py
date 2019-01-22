@@ -5,8 +5,8 @@ with open("README.md", "r") as fh:
 
 setup(
     name='itssutils',
-    version='0.0.2',
-    description='Metrics calculator for Illinois Traffic Stop Study data.',
+    version='0.0.1',
+    description='Utilities for analyzing Illinois Traffic Stop Study data.',
     long_description=long_description,
     long_description_content_type="text/markdown",
     url='http://github.com/JustDSOrg/itssutils',
