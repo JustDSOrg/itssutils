@@ -1,0 +1,5 @@
+ITSSData
+========
+
+.. autoclass:: itssutils.itssdata.RawITSSData
+  :members:

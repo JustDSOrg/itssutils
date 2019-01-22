@@ -1,5 +1,5 @@
 # itssutils
-###Illinois Traffic Stops Statistical Study Utilities
+### Illinois Traffic Stops Statistical Study Utilities
 
 This package provides a way to calculate metrics for police traffic stops in Illinois. 
 Built for use with data provided from the Illinois Traffic Stop Study.

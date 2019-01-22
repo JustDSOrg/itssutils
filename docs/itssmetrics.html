@@ -1,0 +1,429 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>ITSSMetrics &mdash; itssutils 0.1 documentation</title>
+  
+
+  
+  
+  
+  
+
+  
+
+  
+  
+    
+
+  
+
+  <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="prev" title="ITSSData" href="itssdata.html" /> 
+
+  
+  <script src="_static/js/modernizr.min.js"></script>
+
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search">
+          
+
+          
+            <a href="index.html" class="icon icon-home"> itssutils
+          
+
+          
+          </a>
+
+          
+            
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">Contents:</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="itssdata.html">ITSSData</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">ITSSMetrics</a></li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">itssutils</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="index.html">Docs</a> &raquo;</li>
+        
+      <li>ITSSMetrics</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="_sources/itssmetrics.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="itssmetrics">
+<h1>ITSSMetrics<a class="headerlink" href="#itssmetrics" title="Permalink to this headline">¶</a></h1>
+<dl class="class">
+<dt id="itssutils.itssdata.ITSSMetrics">
+<em class="property">class </em><code class="descclassname">itssutils.itssdata.</code><code class="descname">ITSSMetrics</code><span class="sig-paren">(</span><em>itss_data=None</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/itssutils/itssdata.html#ITSSMetrics"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#itssutils.itssdata.ITSSMetrics" title="Permalink to this definition">¶</a></dt>
+<dd><p>Class to wrap ITSS metrics dataframe</p>
+<dl class="attribute">
+<dt id="itssutils.itssdata.ITSSMetrics.raw_df">
+<code class="descname">raw_df</code><a class="headerlink" href="#itssutils.itssdata.ITSSMetrics.raw_df" title="Permalink to this definition">¶</a></dt>
+<dd><p>The dataframe of raw ITSS data</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Type:</th><td class="field-body">pd.DataFrame</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="itssutils.itssdata.ITSSMetrics.metrics">
+<code class="descname">metrics</code><a class="headerlink" href="#itssutils.itssdata.ITSSMetrics.metrics" title="Permalink to this definition">¶</a></dt>
+<dd><p>The dataframe of calculated metrics</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Type:</th><td class="field-body">pd.DataFrame</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="itssutils.itssdata.ITSSMetrics.grouping">
+<code class="descname">grouping</code><a class="headerlink" href="#itssutils.itssdata.ITSSMetrics.grouping" title="Permalink to this definition">¶</a></dt>
+<dd><p>The grouping of calculated metrics</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Type:</th><td class="field-body">list of str</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="itssutils.itssdata.ITSSMetrics.calculate_metrics">
+<code class="descname">calculate_metrics</code><span class="sig-paren">(</span><em>grouping</em>, <em>population_csv=None</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/itssutils/itssdata.html#ITSSMetrics.calculate_metrics"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#itssutils.itssdata.ITSSMetrics.calculate_metrics" title="Permalink to this definition">¶</a></dt>
+<dd><p>Calculate the metrics, grouping by different items</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first last simple">
+<li><strong>grouping</strong> (<em>str</em><em> or </em><em>list of str</em>) – Columns by which to group the data</li>
+<li><strong>population_csv</strong> (<em>str</em><em> or </em><em>path</em>) – Filename of population demographic csv</li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+<p class="rubric">Examples</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="c1"># Calculate the metrics for each racial group across all traffic stops</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">mdf</span> <span class="o">=</span> <span class="n">metrics_by_group</span><span class="p">(</span><span class="n">raw_data_df</span><span class="p">,</span> <span class="s1">&#39;DriverRace&#39;</span><span class="p">)</span>
+</pre></div>
+</div>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="c1"># Calculate yearly metrics by driver sex for each agency</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">mdf</span> <span class="o">=</span> <span class="n">metrics_by_group</span><span class="p">(</span><span class="n">raw_data_df</span><span class="p">,</span> <span class="p">[</span><span class="s1">&#39;AgencyName&#39;</span><span class="p">,</span> <span class="s1">&#39;Year&#39;</span><span class="p">,</span> <span class="s1">&#39;DriverSex&#39;</span><span class="p">])</span>
+</pre></div>
+</div>
+</dd></dl>
+
+<dl class="method">
+<dt id="itssutils.itssdata.ITSSMetrics.get_grouping">
+<code class="descname">get_grouping</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="_modules/itssutils/itssdata.html#ITSSMetrics.get_grouping"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#itssutils.itssdata.ITSSMetrics.get_grouping" title="Permalink to this definition">¶</a></dt>
+<dd><p>Return the grouping used to calculate the metrics</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="itssutils.itssdata.ITSSMetrics.get_metrics">
+<code class="descname">get_metrics</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="_modules/itssutils/itssdata.html#ITSSMetrics.get_metrics"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#itssutils.itssdata.ITSSMetrics.get_metrics" title="Permalink to this definition">¶</a></dt>
+<dd><p>Return a list of all the calculated metrics</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="itssutils.itssdata.ITSSMetrics.get_metrics_df">
+<code class="descname">get_metrics_df</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="_modules/itssutils/itssdata.html#ITSSMetrics.get_metrics_df"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#itssutils.itssdata.ITSSMetrics.get_metrics_df" title="Permalink to this definition">¶</a></dt>
+<dd><p>Return the raw metrics dataframe</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="itssutils.itssdata.ITSSMetrics.load">
+<code class="descname">load</code><span class="sig-paren">(</span><em>filename</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/itssutils/itssdata.html#ITSSMetrics.load"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#itssutils.itssdata.ITSSMetrics.load" title="Permalink to this definition">¶</a></dt>
+<dd><p>Load a metrics object from a pickle file
+pickled object is (grouping, metrics_df) tuple</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="itssutils.itssdata.ITSSMetrics.plot_bars">
+<code class="descname">plot_bars</code><span class="sig-paren">(</span><em>target_top_row</em>, <em>target_column</em>, <em>only_include_rows=None</em>, <em>title=None</em>, <em>savename=None</em>, <em>savecsv=False</em>, <em>xax_label=None</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/itssutils/itssdata.html#ITSSMetrics.plot_bars"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#itssutils.itssdata.ITSSMetrics.plot_bars" title="Permalink to this definition">¶</a></dt>
+<dd><p>Make a bar plot of a certain metric.
+Requires a multi-level metrics calculation be passed in.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>target_top_row</strong> (<em>str</em>) – </td>
+</tr>
+</tbody>
+</table>
+<p class="rubric">Examples</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">met</span><span class="o">.</span><span class="n">calculate_metrics</span><span class="p">([</span><span class="s1">&#39;AgencyName&#39;</span><span class="p">,</span> <span class="s1">&#39;DriverRace&#39;</span><span class="p">])</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">met</span><span class="o">.</span><span class="n">plot_bars</span><span class="p">(</span><span class="s1">&#39;Chicago Police&#39;</span><span class="p">,</span> <span class="s1">&#39;SearchRate&#39;</span><span class="p">)</span>
+</pre></div>
+</div>
+</dd></dl>
+
+<dl class="method">
+<dt id="itssutils.itssdata.ITSSMetrics.plot_scatter">
+<code class="descname">plot_scatter</code><span class="sig-paren">(</span><em>y_index</em>, <em>x_index</em>, <em>metric</em>, <em>size</em>, <em>population_col=None</em>, <em>logscale=False</em>, <em>limits=None</em>, <em>scale_factor=None</em>, <em>z_threshold=5</em>, <em>z_opacity='binary'</em>, <em>as_ratio=False</em>, <em>title=None</em>, <em>savename=None</em>, <em>savecsv=False</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/itssutils/itssdata.html#ITSSMetrics.plot_scatter"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#itssutils.itssdata.ITSSMetrics.plot_scatter" title="Permalink to this definition">¶</a></dt>
+<dd><p>Scatter plot of all agencies</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first last simple">
+<li><strong>y_index</strong> (<em>str</em><em> or </em><em>tuple</em>) – the top-level index to use for the y-axis data (i.e. all levels except agency name)</li>
+<li><strong>x_index</strong> (<em>str</em><em> or </em><em>tuple</em>) – the top-level index to use for the x-axis data</li>
+<li><strong>metric</strong> (<em>str</em>) – the name of the calculated rate to plot, e.g. SearchRate</li>
+<li><strong>size</strong> (<em>str</em>) – the name of the metric to use to size the points, e.g. SearchCount</li>
+<li><strong>logscale</strong> (<em>bool</em>) – Plot on a loglog scale</li>
+<li><strong>limits</strong> (<em>list</em><em> or </em><em>tuple</em>) – the limits on the x and y set_axis</li>
+<li><strong>scale_factor</strong> (<em>float</em>) – Scaling factor for size of points</li>
+<li><strong>z_threshold</strong> (<em>float</em>) – Cutoff threshold to consider something “statistically significant”</li>
+<li><strong>z_opacity</strong> (<em>str</em>) – Type of shading to use (‘binary’, ‘gradient’, ‘filter’)</li>
+<li><strong>as_ratio</strong> (<em>bool</em>) – Make a ratio plot</li>
+<li><strong>title</strong> (<em>str</em>) – Title of the plot</li>
+<li><strong>savename</strong> (<em>str</em><em> or </em><em>path</em>) – Where to save the figure</li>
+<li><strong>savecsv</strong> (<em>str</em><em> or </em><em>path</em>) – Where to save a csv of data used to make the figure</li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+<p class="rubric">Examples</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="c1"># Compare search rates for black and white drivers</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">met</span><span class="o">.</span><span class="n">plot_scatter</span><span class="p">(</span><span class="s1">&#39;Black&#39;</span><span class="p">,</span> <span class="s1">&#39;White&#39;</span><span class="p">,</span> <span class="s1">&#39;SearchRate&#39;</span><span class="p">,</span> <span class="s1">&#39;SearchCount&#39;</span><span class="p">,</span> <span class="n">population_col</span><span class="o">=</span><span class="s1">&#39;StopCount&#39;</span><span class="p">)</span>
+</pre></div>
+</div>
+</dd></dl>
+
+<dl class="method">
+<dt id="itssutils.itssdata.ITSSMetrics.plot_timeseries">
+<code class="descname">plot_timeseries</code><span class="sig-paren">(</span><em>target_column</em>, <em>only_include_rows=None</em>, <em>only_include_entries=None</em>, <em>title=None</em>, <em>ylabel=None</em>, <em>savename=None</em>, <em>savecsv=None</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/itssutils/itssdata.html#ITSSMetrics.plot_timeseries"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#itssutils.itssdata.ITSSMetrics.plot_timeseries" title="Permalink to this definition">¶</a></dt>
+<dd><p>Make a timeseries plot</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first last simple">
+<li><strong>target_column</strong> (<em>str</em>) – The column you want to make the timeseries for</li>
+<li><strong>only_include_rows</strong> (<em>str</em><em> or </em><em>tuple</em><em> or </em><em>list</em>) – Rows of index to include</li>
+<li><strong>only_include_entries</strong> (<em>str</em><em> or </em><em>tuple</em><em> or </em><em>list</em>) – Filter criteria - only include matching entries from target</li>
+<li><strong>title</strong> (<em>str</em>) – Plot title</li>
+<li><strong>ylabel</strong> (<em>str</em>) – Plot y-axis label</li>
+<li><strong>savename</strong> (<em>str</em><em> or </em><em>path</em>) – Path to save the plot</li>
+<li><strong>savecsv</strong> (<em>str</em><em> or </em><em>path</em>) – Path to save a csv of data used to make the plot</li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+<p class="rubric">Examples</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">met</span><span class="o">.</span><span class="n">plot_timeseries</span><span class="p">(</span><span class="s1">&#39;SearchRate&#39;</span><span class="p">,</span> <span class="n">only_include_rows</span><span class="o">=</span><span class="s1">&#39;Chicago Police&#39;</span><span class="p">,</span> <span class="n">only_include_entries</span><span class="o">=</span><span class="p">[</span><span class="s1">&#39;Black&#39;</span><span class="p">,</span> <span class="s1">&#39;Hispanic/Latino&#39;</span><span class="p">,</span> <span class="s1">&#39;Asian&#39;</span><span class="p">,</span> <span class="s1">&#39;White&#39;</span><span class="p">],</span> <span class="n">title</span><span class="o">=</span><span class="s1">&#39;Search Rate 2012-2017&#39;</span><span class="p">)</span>
+</pre></div>
+</div>
+</dd></dl>
+
+<dl class="method">
+<dt id="itssutils.itssdata.ITSSMetrics.plot_zhist">
+<code class="descname">plot_zhist</code><span class="sig-paren">(</span><em>target_item</em>, <em>reference_item</em>, <em>event_col</em>, <em>total_obs_col</em>, <em>title=None</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/itssutils/itssdata.html#ITSSMetrics.plot_zhist"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#itssutils.itssdata.ITSSMetrics.plot_zhist" title="Permalink to this definition">¶</a></dt>
+<dd><p>Z-score histogram for a given event/observation count pairing,
+e.g. SearchCount/StopCount
+Must have included ‘AgencyName’ in grouping and grouping must be
+at least two categories</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first last simple">
+<li><strong>target_item</strong> – index of target item, e.g. ‘Black’</li>
+<li><strong>reference_item</strong> – index of reference item, e.g. ‘White’</li>
+<li><strong>event_col</strong> – column name for event counts, e.g. SearchCount</li>
+<li><strong>total_obs_col</strong> – column name for total observations, e.g. StopCount</li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+<p class="rubric">Examples</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="c1"># Compare the deviation of black driver search hit rate relative to white driver search hit rate</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">met</span><span class="o">.</span><span class="n">plot_zhist</span><span class="p">(</span><span class="s1">&#39;Black&#39;</span><span class="p">,</span> <span class="s1">&#39;White&#39;</span><span class="p">,</span> <span class="s1">&#39;SearchHitCount&#39;</span><span class="p">,</span> <span class="s1">&#39;SearchCount&#39;</span><span class="p">)</span>
+</pre></div>
+</div>
+</dd></dl>
+
+<dl class="method">
+<dt id="itssutils.itssdata.ITSSMetrics.save">
+<code class="descname">save</code><span class="sig-paren">(</span><em>filename</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/itssutils/itssdata.html#ITSSMetrics.save"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#itssutils.itssdata.ITSSMetrics.save" title="Permalink to this definition">¶</a></dt>
+<dd><p>Pickle a metrics object as a (grouping, metrics_df) tuple</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="itssutils.itssdata.ITSSMetrics.save_csv">
+<code class="descname">save_csv</code><span class="sig-paren">(</span><em>filename</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/itssutils/itssdata.html#ITSSMetrics.save_csv"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#itssutils.itssdata.ITSSMetrics.save_csv" title="Permalink to this definition">¶</a></dt>
+<dd><p>Save the current metrics as a csv file</p>
+</dd></dl>
+
+</dd></dl>
+
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+      
+        <a href="itssdata.html" class="btn btn-neutral" title="ITSSData" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2019, Chris Kucharczyk
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  
+
+    
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+        <script type="text/javascript" src="_static/jquery.js"></script>
+        <script type="text/javascript" src="_static/underscore.js"></script>
+        <script type="text/javascript" src="_static/doctools.js"></script>
+    
+
+  
+
+  <script type="text/javascript" src="_static/js/theme.js"></script>
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>
