@@ -35,4 +35,6 @@ met.calculate_metics(['AgencyName', 'DriverRace'])
 ## Getting Started
 
 Try opening up the [getting started notebook](notebooks/getting-started-2017.ipynb) 
-and working your way through it to see what the package can do. Be sure to note any issues! 
+and working your way through it to see what the package can do. Be sure to note any issues!
+
+Look for more documentationon the [GitHub Pages site](https://justdsorg.github.io/itssutils/). 
