@@ -108,7 +108,7 @@ class RawITSSData(object):
         # Filter all the stops by a given column/value(s) pair
         if filter_cols:
             filter_values = [filter_values] if not isinstance(filter_values, list) else filter_values
-            filter_cols = [filter_cols] if not isinstance(filter_values, list) else filter_cols
+            filter_cols = [filter_cols] if not isinstance(filter_cols, list) else filter_cols
             for col in filter_cols:
                 ts = ts[ts[col].isin(filter_values)]
 
