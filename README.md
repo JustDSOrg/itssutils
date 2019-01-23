@@ -1,7 +1,7 @@
 # itssutils
 
 [![PyPI Latest Release](https://img.shields.io/pypi/v/itssutils.svg)](https://pypi.org/project/itssutils/)
-[![PyPI pyversions](https://img.shields.io/pypi/pyversions/v/itssutils.svg)](https://pypi.org/project/itssutils/)
+Python 3.6+
 
 ### Illinois Traffic Stops Statistical Study Utilities
 
