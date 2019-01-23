@@ -1,7 +1,10 @@
 # itssutils
+
+[![PyPI Latest Release](https://img.shields.io/pypi/v/itssutils.svg)](https://pypi.org/project/itssutils/)
+
 ### Illinois Traffic Stops Statistical Study Utilities
 
-This package provides a way to calculate metrics for police traffic stops in Illinois. 
+This package provides a way to calculate metrics for police traffic stops in Illinois.
 Built for use with data provided from the Illinois Traffic Stop Study.
 
 Check out the [Illinois traffic stops website](https://illinoistrafficstops.com/) to learn more.
@@ -13,7 +16,7 @@ You can install with `pip`:
 
 ## Usage
 
-Download raw data [from this link](https://www.dropbox.com/sh/u2qq21gib0py19k/AAB4_7fKHjDBWZ2V_2mGH3_ca?dl=0) 
+Download raw data [from this link](https://www.dropbox.com/sh/u2qq21gib0py19k/AAB4_7fKHjDBWZ2V_2mGH3_ca?dl=0)
 (you can download pre-processed metrics files there as well).
 
 Process the raw data using the `RawITSSData` class.
@@ -34,7 +37,7 @@ met.calculate_metics(['AgencyName', 'DriverRace'])
 
 ## Getting Started
 
-Try opening up the [getting started notebook](notebooks/getting-started-2017.ipynb) 
+Try opening up the [getting started notebook](https://github.com/JustDSOrg/itssutils/blob/master/notebooks/getting-started-2017.ipynb)
 and working your way through it to see what the package can do. Be sure to note any issues!
 
-Look for more documentation on the [GitHub Pages site](https://justdsorg.github.io/itssutils/). 
+Look for more documentation on the [GitHub Pages site](https://justdsorg.github.io/itssutils/).
